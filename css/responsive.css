@@ -1,0 +1,112 @@
+/* Mobile & tablet  */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    .content{
+        margin-top: 20px;
+    }
+    .header_responsive{
+        position: relative;
+    }
+    .moblie_list--icon{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        top:33%;
+        right: 0;
+        justify-content: end;
+        
+    }
+    .mobile_icon-item{
+        margin-left: 10px ;
+        font-size: 20px;
+        
+    }
+    .mobile_icon-item:last-child{
+        margin-right: 16px;
+    }
+    
+    .header_responsive{
+        display:block;
+    }
+    .btn_search {
+
+    }
+}
+/* Tablet */
+@media(min-width:740px) and (max-width:1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+    .logo a>img{
+        width:100px
+    }
+    .content{
+        margin-top: 20px;
+    }
+    .header_responsive{
+        position: relative;
+    }
+    .moblie_list--icon{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        top:33%;
+        right: 0;
+        justify-content: end;
+       
+    }
+    .mobile_icon-item{
+        margin-left: 20px ;
+        font-size: 20px;
+        
+    }
+    .mobile_icon-item:last-child{
+        margin-right: 16px;
+    }
+    .search_mobile{
+        flex: 1;
+    }
+    .header_responsive{
+        display:block;
+    }
+}
+/* mobile */
+@media (max-width :739px) {
+    .hide-on-mobile{
+        display: none;
+    }
+    .logo a>img{
+        width: 80px;
+    }
+    .btn_search{
+        width: 30px;
+    }
+    .btn_search-icon{
+        font-size: 16px;
+    }
+    .mobile_icon-item{
+        margin-left: 10px ;
+        font-size: 14px;
+        
+    }
+    .mobile_icon-item:last-child{
+        margin-right: 10px;
+    }
+    .input_search{
+        display: none;
+    }
+    .search_mobile{
+        
+    }
+    .moblie_list--icon{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        top:20%;
+        right: 0;
+        justify-content: end;
+       
+    }
+}
